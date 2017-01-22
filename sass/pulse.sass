@@ -1,0 +1,31 @@
+@keyframes pulse
+  0%
+    -moz-box-shadow: 0 0 0 0 rgba(244, 246, 249, 1)
+    box-shadow: 0 0 0 0 rgba(244, 246, 249, 1)
+
+  80%
+    -moz-box-shadow: 0 0 0 10vh rgba(244, 246, 249, 0)
+    box-shadow: 0 0 0 10vh rgba(244, 246, 249, 0)
+
+  100%
+    -moz-box-shadow: 0 0 0 0 rgba(244, 246, 249, 0)
+    box-shadow: 0 0 0 0 rgba(244, 246, 249, 0)
+
+.pulse
+  animation: pulse 2s infinite
+
+@keyframes pulse-red
+  0%
+    -moz-box-shadow: 0 0 0 0 rgba(254, 67, 76, 1)
+    box-shadow: 0 0 0 0 rgba(254, 67, 76, 1)
+
+  80%
+    -moz-box-shadow: 0 0 0 2vh rgba(254, 67, 76, 0)
+    box-shadow: 0 0 0 2vh rgba(254, 67, 76, 0)
+
+  100%
+    -moz-box-shadow: 0 0 0 0 rgba(254, 67, 76, 0)
+    box-shadow: 0 0 0 0 rgba(254, 67, 76, 0)
+
+.pulse-red
+  animation: pulse-red 1s infinite

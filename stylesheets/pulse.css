@@ -1,0 +1,39 @@
+@keyframes pulse {
+    0% {
+        -moz-box-shadow: 0 0 0 0 #f4f6f9;
+        box-shadow: 0 0 0 0 #f4f6f9;
+    }
+    80% {
+        -moz-box-shadow: 0 0 0 10vh rgba(244, 246, 249, 0);
+        box-shadow: 0 0 0 10vh rgba(244, 246, 249, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(244, 246, 249, 0);
+        box-shadow: 0 0 0 0 rgba(244, 246, 249, 0);
+    }
+}
+
+/* line 15, ../sass/pulse.sass */
+.pulse {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse-red {
+    0% {
+        -moz-box-shadow: 0 0 0 0 #fe434c;
+        box-shadow: 0 0 0 0 #fe434c;
+    }
+    80% {
+        -moz-box-shadow: 0 0 0 2vh rgba(254, 67, 76, 0);
+        box-shadow: 0 0 0 2vh rgba(254, 67, 76, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(254, 67, 76, 0);
+        box-shadow: 0 0 0 0 rgba(254, 67, 76, 0);
+    }
+}
+
+/* line 31, ../sass/pulse.sass */
+.pulse-red {
+    animation: pulse-red 1s infinite;
+}

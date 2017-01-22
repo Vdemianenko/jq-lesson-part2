@@ -1,0 +1,24 @@
+{
+  "name": "jq-lesson-part2",
+  "homepage": "https://github.com/Vdemianenko/jq-lesson-part2",
+  "authors": [
+    "Vdemianenko <dem199422@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6",
+    "montserrat": "https://google-fonts.azurewebsites.net/googleFonts/css?family=Montserrat",
+    "font-awesome": "fontawesome#^4.7.0",
+    "owl": "^1.3.2",
+    "carousel": "^1.2.2"
+  }
+}

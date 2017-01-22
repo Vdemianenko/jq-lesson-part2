@@ -1,0 +1,260 @@
+@import "ripple-out"
+@import "shaketext"
+@import "hovertext"
+@import "Fonts"
+@import "burger"
+@import "pulse"
+@import "carousel"
+@import "button"
+.absolute
+  position: absolute
+  z-index: -100%
+
+body
+  font: 400 14px 'Montserrat'
+  overflow-x: hidden
+
+.buytxt
+  color: white
+  font: 700 16px 'Montserrat'
+  text-decoration: underline
+  padding-right: 28px
+
+.phonetxt
+  color: #92a1a5
+  font-size: 14px
+
+@media only screen and (max-width: 520px)
+  .phonetxt
+    color: #92a1a5
+    font-size: 10px
+  .buytxt
+    font-size: 10px
+    padding-right: 5px
+  .smcenter
+    padding-top: 20%
+
+.schrolltxt
+  color: black
+  font: 700 18px 'Montserrat'
+
+.background
+  width: 100vw
+  height: 100vh
+  background-image: url("../img/backgroundimg.png")
+  background-size: cover
+
+.bxslider
+  width: 200px
+  height: 200px
+
+.wrapp
+  width: 100vw
+  height: 100vh
+
+.wrapper-lg
+  width: 80vw
+
+.mt-lg
+  margin-top: 80px
+
+.mt-xl
+  margin-top: 180px
+
+.tap-drone
+  position: relative
+  width: 45vw
+  height: 45vh
+  background: url("../img/tapdrone.png") no-repeat center center
+  background-size: cover
+
+.street-img
+  width: 55vw
+  height: 45vh
+  background: url("../img/photo-2.png") no-repeat center center
+  background-size: cover
+  z-index: 100
+
+.lg-text
+  color: black
+  font: 700 60px 'Montserrat'
+  z-index: 100
+
+.loremtext
+  color: #92a1a5
+  z-index: 100
+
+.dark-zone
+  width: 25vw
+  height: inherit
+  background-color: black
+  opacity: .65
+  transition: transform 2s
+
+.dark-zone:hover
+  transform: scale(1.2)
+
+.line-md
+  width: 40%
+  height: 1px
+  background-color: #fff
+
+.btn-type
+  width: 182px
+  height: 57px
+  border-radius: 28px
+  background-color: white
+  color: black
+  font: 700 18px Montserrat
+  margin-left: 5px
+
+.rotateline
+  transform: rotate(270deg)
+
+.button-cont
+  width: 30vw
+  height: 45vh
+
+.md-text
+  color: black
+  font: 700 48px Montserrat
+  margin: auto
+
+.sm-text
+  color: black
+  font-size: 30px
+  font-weight: 400
+  padding-top: 70px
+
+.mb-xl
+  margin-bottom: 180px
+
+.cont-width
+  width: 250px
+
+.p-lg
+  padding: 120px 0
+
+.boximg
+  background: url("../img/box.png") no-repeat center center
+  background-size: cover
+
+.xl-txt
+  font: 400 60px Montserrat
+  color: white
+
+.red
+  color: #ff343d
+
+.black
+  color: #232323
+
+.green
+  color: #318f76
+
+.btn-color
+  background-color: transparent
+  color: white
+
+.btn-border
+  border: 2px solid #3b3b3b
+
+.mx-lg
+  margin: 140px 0
+
+.seabg
+  width: 100vw
+  height: 100vh
+  background: url("../img/seaimg.png") no-repeat center center
+  background-size: cover
+
+.footwrap
+  height: 35vh
+
+.opacity
+  opacity: 1
+
+.circle-sm
+  position: absolute
+  right: -35%
+  width: 42%
+  height: 60%
+  border-radius: 50%
+  background-color: #e8ecf1
+  z-index: 5
+
+.circle-md
+  position: absolute
+  right: -35%
+  width: 52%
+  height: 70%
+  border-radius: 50%
+  background-color: #eef1f5
+  z-index: 4
+
+.circle-lg
+  position: absolute
+  right: -35%
+  width: 62%
+  height: 80%
+  border-radius: 50%
+  background-color: #f4f5f8
+  z-index: 3
+
+.circle-red
+  width: 11px
+  height: 11px
+  background-color: white
+  border: 3px solid #ff343d
+  border-radius: 50%
+  position: absolute
+  left: 71px
+  top: -5px
+
+.circle-red-foot
+  width: 11px
+  height: 11px
+  background-color: white
+  border: 3px solid #ff343d
+  border-radius: 50%
+  position: absolute
+  left: 71px
+  top: -5px
+
+.logo-cont
+  position: relative
+
+.hoverred a:hover
+  animation: hoverred 2s infinite
+
+.vision-img
+  background: url("../img/vision-img.png") no-repeat center center
+  background-size: cover
+  height: 50vh
+
+@keyframes txtless
+  from
+    font-size: 60px
+  to
+    font-size: 50px
+
+.txtless
+  animation: txtless 2s
+  font-size: 50px
+
+.nodisplay
+  display: none
+
+@keyframes fade-in
+  from
+    opacity: 0.1
+  to
+    opacity: 1
+
+.visible-txt
+  opacity: 1
+  color: #ff343d
+  animation: fade-in 1s
+
+.text-wrap
+  width: 50%

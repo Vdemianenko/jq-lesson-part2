@@ -1,0 +1,10 @@
+/* line 1, ../sass/hovertext.sass */
+.phonetxt {
+    transition: color 1s;
+}
+
+/* line 3, ../sass/hovertext.sass */
+.phonetxt:hover {
+    color: #fe434c;
+    text-decoration: none;
+}

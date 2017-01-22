@@ -1,0 +1,7 @@
+{
+  "name": "montserrat",
+  "main": [
+    "*.ttf",
+    "*.css"
+  ]
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mars</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/montserrat/montserrat.css" rel="stylesheet">
+    <link href="stylesheets/main.css" rel="stylesheet">
+</head>
+<body>
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+</div>
+<img src="img/backgroundimg.png" class="img-fluid wrapp absolute">
+<section class="container-fluid pt-3 wrapp px-5">
+    <div class="row no-gutters">
+        <div class="col-3 col-md-1  align-items-center text-nowrap">
+            <a href="#">
+                <div class="circle-red"></div>
+                <img class="navbar-brand" src="img/mars.png"></a>
+        </div>
+        <div class="col-3 col-md-2  d-flex align-items-center text-nowrap px-2">
+            <div class="hoverred">
+                <a href="#" class="phonetxt hidden-xs-down"><i class="fa fa-phone px-2"></i>
+                    +48 604 300 500</a>
+            </div>
+        </div>
+        <div class="col-6 offset-md-7  col-md-2 text-uppercase d-flex align-items-center justify-content-end text-nowrap">
+            <a href="#"><span class="buytxt">buy now</span></a>
+            <a href="#" onclick="openNav()"><img src="img/menu.png"></a>
+        </div>
+    </div>
+    <div class="row mt-lg d-flex align-items-center no-gutters">
+        <div class="col-lg-3 col-md-12 smcenter d-flex justify-content-start align-items-center  slideshow-container">
+            <ul class="d-flex flex-column">
+                <li class="dot" onclick="currentSlide(1)"></li>
+                <li class="dot" onclick="currentSlide(2)"></li>
+                <li class="dot" onclick="currentSlide(3)"></li>
+            </ul>
+            <div class="mySlides fades">
+                <h3>PHANTOM</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget euismod dolor.</p>
+            </div>
+            <div class="mySlides fades">
+                <h3>PHANTOM 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget euismod dolor.</p>
+            </div>
+            <div class="mySlides fades">
+                <h3>PHANTOM 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget euismod dolor.</p>
+            </div>
+
+
+        </div>
+        <div class="col-lg-9 col-md-12 smcenter"><img src="img/drone.png" class="img-fluid"></div>
+    </div>
+    <div class="row pt-5 smcenter">
+        <div class="col-2">
+            <span class="shaketext schrolltxt">Schroll down</span>
+        </div>
+    </div>
+</section>
+
+
+<section class="container-fluid d-flex justify-content-start p-0">
+    <div class="tap-drone  d-inline-flex  justify-content-center flex-column flex-wrap align-items-center">
+        <p class="lg-text">Tap to fly</p>
+        <span class="loremtext">Lorem ipsum dolor sit amet.</span>
+        <div class="circle-sm">
+        </div>
+        <div class="circle-md">
+        </div>
+        <div class="circle-lg">
+        </div>
+    </div>
+    <div class="street-img d-flex justify-content-start">
+        <div class="dark-zone d-flex justify-content-center align-items-baseline flex-column pl-3 ">
+            <p class="text-white lg-text opacity">Fly higher</p>
+            <p class="text-white lg-text opacity">than before</p>
+        </div>
+        <div class="button-cont d-flex  align-items-center  rotateline basejq">
+            <div class="line-md"></div>
+            <button type="button" class="text-uppercase btn btn-type">view more</button>
+        </div>
+    </div>
+</section>
+
+
+<section class="container-fluid wrapper-lg p-lg">
+    <div class="row">
+        <p class="md-text">Features</p>
+    </div>
+    <div class="row d-flex justify-content-around align-items-center p-lg no-gutters">
+        <div class="col-md-3 d-flex align-items-center flex-column">
+            <img src="img/new-technology.png" alt="new-technology" class="img-fluid">
+            <p class="sm-text">New technology</p>
+        </div>
+        <div class="col-md-3 d-flex align-items-center flex-column">
+            <img src="img/good-signal.png" alt="new-technology">
+            <p class="sm-text">Good signal</p>
+        </div>
+        <div class=" col-md-3 d-flex align-items-center flex-column">
+            <img src="img/easy-to-use.png" alt="new-technology">
+            <p class="sm-text">Easy to use</p>
+        </div>
+        <div class=" col-md-3 d-flex align-items-center flex-column">
+            <img src="img/visibility.png" alt="new-technology">
+            <p class="sm-text">Visibility</p>
+        </div>
+    </div>
+</section>
+<section class="container-fluid p-0">
+    <div class="row no-gutters">
+        <div class="col-6 vision-img">
+        </div>
+        <div class="col-6 boximg d-flex justify-content-center align-items-center">
+            <div class="offset-1 col-10 d-flex justify-content-between flex-column">
+                <span class="xl-txt">New <span class="red">generation</span> of vision<span class="red">.</span></span>
+                <p class="nodisplay jtxt">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium
+                    doloremque laudantium,
+                    totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae
+                    dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit,
+                    sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam
+                </p>
+                <p>
+                    <button type="button" class="btn btn-type text-uppercase btn-color btn-border mt-3">view more
+                    </button>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="container-fluid p-0 mx-lg">
+    <div class="row no-gutters">
+        <div class="col-6 d-flex justify-content-center align-items-center">
+            <div class="offset-1 col-10">
+                <span class="xl-txt black">New <span class="red">generation</span> of flying<span
+                        class="red">.</span></span>
+                <p class="nodisplay jtxt">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium
+                    doloremque laudantium,
+                    totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae
+                    dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit,
+                    sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam
+                </p>
+                <p>
+                    <button type="button" class="btn btn-type text-uppercase btn-border  mt-5">view more</button>
+                </p>
+            </div>
+        </div>
+        <div class="col-6">
+            <img src="img/dronewc.png" class="img-fluid">
+        </div>
+    </div>
+</section>
+<section class="container-fluid p-0">
+    <div class="row no-gutters">
+        <div class="col-12 seabg d-flex justify-content-end align-items-center flex-column">
+            <p class="xl-txt">Start your journey.</p>
+            <div class="text-wrap"><p class="nodisplay jtxt">Sed ut perspiciatis, unde omnis iste natus error sit
+                voluptatem accusantium doloremque laudantium,
+                totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae
+                dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit,
+                sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam
+            </p></div>
+            <p>
+                <button class="btn btn-type text-uppercase green mt-3 mb-xl">view more</button>
+            </p>
+        </div>
+    </div>
+</section>
+<section class="container-fluid footwrap d-flex justify-content-center align-items-center flex-column">
+    <div class="logo-cont">
+        <div class="circle-red"></div>
+        <img class="navbar-brand" src="img/mars.png">
+    </div>
+    <p class="text-muted pt-3">2016 Copyright. All rights reserved by Symu.co</p>
+</section>
+
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
